@@ -1,0 +1,200 @@
+body {
+    display: block;
+    margin: 0px;
+    font-family: calibri, arial, sans-serif;
+    background-color: #f7d3ba;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.logo{
+    width: 80px;
+    float:left;
+    padding-top: 0px;
+    padding-left: 30px;
+}
+
+header.navbar{
+    display: inline-flex;
+  width: 100%;
+}
+
+.navbar{
+  margin-bottom: 10px;
+  box-shadow: 0 0 30px black;
+}
+
+.jumbotron{
+    background-color: #f5844e;
+    float: inherit;
+    z-index: 10;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar-brand{
+    padding: 0px;
+}
+
+.margin{
+    margin-top: -30px;
+    margin-bottom: 0px;
+}
+
+.padding{
+    padding: 0px;
+    z-index: -10;
+}
+
+.padding-left{
+   padding-right: 0px;
+   margin-right: 0px;
+}
+
+.img-responsive{
+  width: 100%;
+}
+
+.arriba{
+  position: relative;
+  z-index: 10;
+}
+
+.left{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.thumbnail{
+	padding: 0px;
+	border: 3px solid #ddd;
+  margin: 0px;
+}
+
+/*.texto-vertical{
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  position: absolute;
+  z-index: 20;
+} POSITION RELATIVE SE VE TEXTO VERTICAL PARA UBICARLO BIEN*/
+
+.noticias{
+    padding: 10px;
+    fonts-size: 10px;
+}
+
+h4{
+  color: #00bcd4;
+}
+
+
+/*
+nav a:y{
+  background-color: purple;
+  transition: 0,5s;
+  text-transform: uppercase;
+}
+*/
+
+----------/*seccion noticias*/-----------
+
+footer {
+    background-color: #00bcd4;
+
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    font-weight: lighter;
+    color: white;
+}
+
+.footerHeader{
+    width:100%;
+    padding:1em;
+    background-color:#00bcd4;
+    text-align:center;
+    color: white;
+}
+footer h3{
+    font-weight:lighter;
+}
+footer ul{
+    padding-left:5px;
+    list-style:none;
+}
+footer p{
+    text-align : justify;
+    font-size : 12px;
+}
+footer iframe {
+    width:100%;
+    position:relative;
+    height:170px;
+}
+.sm{
+    list-style:none;
+    overflow:auto;
+}
+.sm li {
+    display: inline;
+    padding:5px;
+    float:left;
+}
+.sm li a img {
+    width:32px;
+}
+
+.quienes-somos{
+    text-align: center;
+
+}
+
+----------/*pagina noticias*/-----------
+
+hr{
+    height: 3px;
+    width: 60%;
+    border: 1;
+    background-color: #00bcd4;
+}
+
+.aire-noticias{
+    padding: 10px;
+    margin: 10px;
+}
+
+.quienes-somos{
+    margin-top: 30px;
+}
+
+.rectangulos{
+  background-color: white;
+  height: 50px;
+  width: 130px;
+  border: 3px solid; doggted
+  border-color: #00bcd4;
+  display: inline-block;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 14px;
+  margin-bottom: 30px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.italica{
+      font-style: italic;
+      text-align: center;
+}
+
+.imagen-header{
+    width: 100%;
+}
+
+.subir{
+    padding-bottom: 10px;
+}
